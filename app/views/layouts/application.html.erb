@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <%= render 'layouts/navbar' %>
+    <br>
+    <%= flash.notice %>
     <%= yield %>
   </body>
 </html>
